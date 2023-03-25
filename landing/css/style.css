@@ -1,0 +1,19 @@
+
+body{
+background: url('/images/Desktop.png');
+background-size: cover;
+}
+h1{
+    margin: 60px;;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+}
+
+

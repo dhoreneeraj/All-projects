@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: linear-gradient(90deg,#FF9F4A 0%,#FF3C83 100%);
+    color:antiquewhite
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+span{
+    color: black;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}
+p{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+button{
+    margin: auto;
+    display: block;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 0.6 em;
+    font-size: 1rem;
+    font-weight: 900;
+    padding:1.2em ,2.3em;
+    cursor: grab;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    color: beige;
+}
+.lco{
+    transition: margin-right 2s ease-in-out .5s;
+}
+.lco:hover{
+    box-shadow: 0 0 40px 40px rgba(1, 1, 13, 0.2) inset;
+}
